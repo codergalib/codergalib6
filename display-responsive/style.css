@@ -1,0 +1,92 @@
+.con-1{
+    background: red;
+}
+@media(max-width:1000px;){
+        .container{
+            background-color: red;
+            color:green;
+            font-weight: 900;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+}
+@media (max-width:780px){
+    .con-1{
+        background-color: purple;
+    }
+    h6{
+        color: red;
+    }
+    h5{
+        color: blue;
+    }
+    h4{
+        color: green;
+    }
+    h3{
+        color: greenyellow;
+    }
+    h2{
+        color: orange;
+    }
+    h1{
+        color: lawngreen;
+    }
+}
+@media (max-width:380px){
+    .con-1{
+        background-color: rgb(38, 0, 255);
+    }
+    h6{
+        color: rgb(0, 0, 0);
+    }
+    h5{
+        color: rgb(0, 0, 0);
+    }
+    h4{
+        color: rgb(0, 0, 0);
+    }
+    h3{
+        color: rgb(0, 0, 0);
+    }
+    h2{
+        color: rgb(0, 0, 0);
+    }
+    h1{
+        color: lawngreen;
+    }
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin: auto;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.22), -2px -1px 5px 5px rgba(0, 0, 0, 0.12), inset -2px -1px 10px 10px rgba(0, 0, 0, 0.24), inset 2px 2px 10px 10px rgba(0, 0, 0, 0.09);
+    background: linear-gradient(red,blue,green,yellow);
+   position: relative;
+   animation: animate 1s ease-in-out infinite;
+}
+@keyframes animate{
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+.box::after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    bottom: 25px;
+    left: 25px;
+    background: #fff;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.22), -2px -1px 5px 5px rgba(0, 0, 0, 0.12), inset -2px -1px 10px 10px rgba(0, 0, 0, 0.24), inset 2px 2px 10px 10px rgba(0, 0, 0, 0.09);
+
+}
+

@@ -1,0 +1,74 @@
+body {
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(930deg, rgba( 249, 234, 0, 0.73),#00ffb7ad,rgba(255,0, 96, 0.74)), url(./bg.png) no-repeat center center;
+	background-size: cover;
+	height: 100vh !important;
+}
+	.main {
+	height: 100vh !important;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 20px;
+	}
+	
+	.main div {
+		border-radius: 0px !important;
+		background: #bc212130;
+		width: 90%;
+		max-width: 620px;
+		height: auto;
+		position: relative;
+		box-shadow: 0 0px 10px 7px rgba(31, 31, 31, 0.5);
+		text-align: center;
+		font-size: 65px;
+		padding: 50px 0;
+		border-top: 15px solid #fff;
+		border-bottom: 15px solid #fff;
+		border-left: 15px solid #000001;
+		border-right: 15px solid #000001;
+	}
+	#date {
+		margin: 0;
+		border-bottom: 15px solid #fff;
+		padding-bottom: 30px;
+	}
+	#time {
+		margin: 17px;
+	}
+	.clockpart
+	{
+	padding:0px !important;
+	min-width:60px !important;
+	display: inline-block;
+	}
+	.clockmin
+	{
+	padding:0px !important;
+	width:5px !important;
+	min-width:5px !important;
+	
+	display: inline-block;
+	}
+	.clockContainer {
+		color: #f00 !important;
+		text-shadow: 3px 3px 2px #f70404;
+		font-weight: 700;
+		animation: animatedShadow 2s linear infinite;
+	}
+	@keyframes animatedShadow {
+		0%{text-shadow: 3px 3px 2px #f78e04; }
+		10%{text-shadow: 3px 3px 2px #e7f704; }
+		20%{text-shadow: 3px 3px 2px #a2f704; }
+		30%{text-shadow: 3px 3px 2px #04f704; }
+		40%{text-shadow: 3px 3px 2px #04f77e; }
+		50%{text-shadow: 3px 3px 2px #048af7; }
+		60%{text-shadow: 3px 3px 2px #0804f7; }
+		70%{text-shadow: 3px 3px 2px #7504f7; }
+		80%{text-shadow: 3px 3px 2px #b204f7; }
+		90%{text-shadow: 3px 3px 2px #f70492; }
+		100%{text-shadow: 3px 3px 2px #f70404; }
+	}

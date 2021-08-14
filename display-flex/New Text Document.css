@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+        width: 1100px;
+        margin: auto;
+        background: rgb(214, 214, 214);
+        padding: 20px 0;
+        border: 10px dotted yellow;
+}
+.row-1{
+    margin-top: 20px;
+    text-align: center;
+    
+
+}
+.row-1-item{
+        
+} 
+.row-1-item ul{
+        list-style: none;
+        display: flex;
+}
+.row-1-item ul li{
+    flex-grow: 1;
+
+}
+.row-1-item ul li a{
+       display: block;
+       padding: 10px 30px;
+       border: 2px solid navy;
+       color: black;
+       text-decoration: none;
+       font-size: 20px;  
+       background: red; 
+       border-radius: 20px 0;
+       margin:0 5px;
+       font-weight: 900;
+       transition: .8s;
+    
+    }
+    .row-1-item ul li a:hover{
+        background: black;
+        color: red;
+        border-radius: 0 20px;
+    }
+
+
+
+    .row-2{
+        margin-top: 30px;
+    }
+    .row-2-item{
+        border: 2px solid red;
+        padding: 10px;
+    }
+
+
+    .row-3{
+        margin-top: 30px;
+        display: flex;
+    }
+    .row-3-item{
+        border: 2px solid red;
+        padding: 10px;
+    }
+
+
+
+    .row-4{
+        margin-top: 30px;
+        display: flex;
+    }
+    .row-4-item{
+        border: 2px solid red;
+        padding: 10px;
+    }  
+    
+
+
+    .row-5{
+        margin-top: 30px;
+        display: flex;
+    }
+    .row-5-item{
+        border: 2px solid red;
+        padding: 10px;
+    }  
+
+    .row-6{
+        margin-top: 30px;
+        display: flex;
+    }
+    .row-6-item{
+        border: 2px solid red;
+        padding: 10px;
+        flex: 1 0 0%;
+    }  
+    .middle-item{
+        flex-grow: 9;
+    }
+
+
+    .row-7{
+        margin-top: 30px;
+        display: flex;
+    }
+    .row-7-item{
+        border: 2px solid red;
+        padding: 10px;
+        flex-basis: 40%;
+        background: black;
+        color: #fff;
+    }  
+
+    .big-item{
+        flex-basis: 60%;
+        background:transparent ;
+        color: black;
+    }
+    .big-item:hover{
+        
+    }
+
+
+    .row-8{
+        margin-top: 30px;
+        display: flex;
+    }
+    .row-8-item{
+        border: 2px solid red;
+        padding: 10px;
+        flex-basis: 60%;
+        
+    }  
+    .small-item{
+        flex-basis: 40%;
+        background: black;
+        color: #fff;
+    }
+ 

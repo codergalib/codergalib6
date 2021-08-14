@@ -1,0 +1,42 @@
+body{
+    background: #2f3542;
+}
+.egg{
+    height: 250px;
+width: 500px;
+background: #ffffff;
+border-radius: 50%;
+border: 10px solid #eccc68;
+text-align: center;
+padding: 30px;
+margin: auto;
+}
+.kusum{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background:#ffa502;
+    margin: auto;
+}
+.flag{
+    height: 250px;
+    width: 500px;
+    background: green;
+    text-align: center;
+    padding: 30px;
+    margin:30px auto;
+
+    
+}
+.main{
+    background: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 70px;
+}
